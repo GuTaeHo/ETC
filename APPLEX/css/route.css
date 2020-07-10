@@ -1,0 +1,54 @@
+#map .ui-bar-b {
+  text-align: center;
+  border-radius: 15px 15px 0px 0px / 15px 15px 0px 0px;
+  box-shadow: 2px 2px 5px #dcdcdc;
+}
+
+#daumRoughmapContainer1594239800036 {
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 5px #dcdcdc;
+  border-radius: 0px 0px 15px 15px / 0px 0px 15px 15px;
+}
+
+.ui-grid-a {
+  background-color: #F2F2F2;
+  border-radius: 0px 0px 15px 15px / 0px 0px 15px 15px;
+}
+
+#firstbox {
+  text-align: center;
+  height : 120px;
+  margin : 10% 5% 5% 10%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #dcdcdc;
+  padding: none;
+}
+
+#firstbox p {
+  font-size: 11px;
+}
+
+
+#secondbox {
+  text-align: center;
+  height : 120px;
+  margin : 10% 10% 5% 5%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #dcdcdc;
+}
+
+#thirdbox {
+  text-align: center;
+  height : 120px;
+  margin : 5% 5% 10% 10%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #dcdcdc;
+}
+
+#fourthbox {
+  text-align: center;
+  height : 120px;
+  margin : 5% 10% 10% 5%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #dcdcdc;
+}

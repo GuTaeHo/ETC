@@ -1,0 +1,142 @@
+img {
+      max-width:90%;
+      display: block;
+      margin: 0px auto;
+      margin-bottom: 10px;
+      height:auto;
+      border-radius : 10px;
+      box-shadow: 3px 3px 5px #dcdcdc;
+      border:1px solid #dcdcdc;
+    }
+
+#toptextbox {
+  padding-bottom: 30px;
+  border-bottom: 2px solid #dcdcdc;
+  border-radius: 2px 2px 5px #dcdcdc;
+}
+
+#midtextbox {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #dcdcdc;
+  border-radius: 2px 2px 5px #dcdcdc;
+}
+
+#midtextbox .ui-body-b {
+  height : 170px;
+}
+
+#midtextbox .ui-body-a {
+  height : 170px;
+}
+
+#firstchild {
+  max-width: 88%;
+  box-shadow: 5px 5px 5px #dcdcdc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#row4textbox1 > .ui-body-b {
+  margin-top: 20px;
+  background-color: white;
+  color : #424242;
+  text-shadow: none;
+  border: none;
+  border: 1px solid #dcdcdc;
+}
+
+#row4textbox2 > .ui-body-b {
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.ui-body-a {
+  max-width:75%;
+  margin-left: 5px;
+  box-shadow: 2px 2px 5px #dcdcdc;
+  border-radius: 10px;
+}
+
+.ui-block-a > .ui-body-b {
+  max-width:75%;
+  margin-right: 5px;
+  box-shadow: 5px 5px 5px #dcdcdc;
+  border-radius: 10px;
+}
+
+.ui-block-b > .ui-body-b {
+  max-width:75%;
+  margin-right: 5px;
+  box-shadow: 5px 5px 5px #dcdcdc;
+  border-radius: 10px;
+}
+
+.ui-block-b > h5 {
+  max-width:90%;
+  display: block;
+  text-align: center;
+  height : 23px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #dcdcdc;
+  padding-top: 8px;
+  margin: auto;
+}
+
+#bottomtextbox {
+  max-width: 100%;
+  margin-left: 5px;
+  margin-top: 30px;
+}
+
+#tab1 {
+  max-width:100%;
+  display: block;
+  color : white;
+  text-shadow: none;
+  background-color:#2E2E2E;
+  border-radius: 0px 0px 10px 10px / 0px 0px 10px 10px;
+  box-shadow: 2px 2px 5px #dcdcdc;
+  padding: 2px 20px 10px 20px;
+  margin: auto;
+}
+
+#tab2 {
+  max-width:100%;
+  display: block;
+  color : white;
+  text-shadow: none;
+  background-color:#2E2E2E;
+  border-radius: 0px 0px 10px 10px / 0px 0px 10px 10px;
+  box-shadow: 2px 2px 5px #dcdcdc;
+  padding: 2px 20px 10px 20px;
+  margin: auto;
+}
+
+#tab3 {
+  max-width:100%;
+  display: block;
+  color : white;
+  text-shadow: none;
+  background-color:#2E2E2E;
+  border-radius: 0px 0px 10px 10px / 0px 0px 10px 10px;
+  box-shadow: 2px 2px 5px #dcdcdc;
+  padding: 2px 20px 10px 20px;
+  margin: auto;
+}
+
+#tab1 >.ui-body-a {
+  max-width: 100%;
+  box-shadow: none;
+}
+
+#tab2 >.ui-body-a {
+  max-width: 100%;
+  box-shadow: none;
+}
+
+#tab3 >.ui-body-a {
+  max-width: 100%;
+  box-shadow: none;
+}

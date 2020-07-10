@@ -1,0 +1,31 @@
+img { max-width:100%; height:auto }
+
+.pannel-button {
+  text-align: left !important;
+}
+
+p {
+  font-size: 13px;
+}
+
+#p_title {
+  font-size : 20px;
+}
+
+#blocka {
+  width : 48%;
+  margin-right: 2%
+}
+
+#blockb {
+  width : 48%;
+  margin-left: 2%
+}
+
+#grida .ui-bar-b {
+  border-radius: 10px;
+}
+
+#grida .ui-body-a {
+  border-radius: 10px;
+}

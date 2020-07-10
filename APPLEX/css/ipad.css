@@ -1,0 +1,69 @@
+img { max-width:95%;
+      height:auto;
+      border-radius : 10px;
+      border : 1px solid #dcdcdc;
+      display: block;
+      margin: 0px auto;
+    }
+
+#linereflesh {
+  margin-bottom: 50px;
+}
+
+#ipad {
+      margin-bottom: 20px;
+}
+
+#boxrow {
+  margin-bottom: 20px;
+}
+
+#boxrow .ui-body-a {
+  height : 120px;
+}
+
+#boxtype1 {
+      max-width: 90%;
+      padding-left: 10px;
+}
+
+#boxtype1 .ui-body-a {
+  height : 120px;
+}
+
+#boxtype2 {
+  max-width: 90%;
+  padding-right: : 10px;
+}
+
+#boxtype2 .ui-body-a {
+  height : 120px;
+}
+
+#textbox1 {
+      max-width: 90%;
+      padding-left: 10px;
+}
+
+#textbox1 .ui-body-a {
+  height : 60px;
+}
+
+#textbox2 {
+  max-width: 90%;
+  padding-right: : 10px;
+}
+
+#textbox2 .ui-body-a {
+  height : 60px;
+}
+
+
+
+.ipadpage .ui-bar-b {
+  border-radius: 5px 5px 0px 0px / 5px 5px 0px 0px;
+}
+
+.ipadpage .ui-body-a {
+  border-radius: 0px 0px 5px 5px / 0px 0px 5px 5px;
+}

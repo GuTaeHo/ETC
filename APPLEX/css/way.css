@@ -1,0 +1,141 @@
+img {
+      max-width:80%;
+      display: block;
+      margin: 0px auto;
+      margin-bottom: 10px;
+      height:auto;
+      border-radius : 10px;
+      box-shadow: 3px 3px 5px #dcdcdc;
+      border:0.5px solid #dcdcdc;
+      padding: 2%;
+    }
+
+#notice {
+  max-width: 90%;
+  box-shadow: 3px 3px 5px #dcdcdc;
+  border:0.8px solid #dcdcdc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+#notice > p {
+  text-align: center;
+}
+
+
+/* 화면 깨우기 */
+#firsttitle {
+  max-width: 90%;
+  box-shadow: 5px 5px 5px #dcdcdc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#toptextbox {
+  margin-bottom: 40px;
+}
+
+#toptextbox > .ui-block-a {
+    padding-right: 10px;
+}
+
+#toptextbox > .ui-block-a > h5 {
+  margin : 15px;
+}
+
+#toptextbox .ui-body-b {
+  height : 250px;
+}
+
+/* 음량 조절 */
+#secondtitle {
+  max-width: 90%;
+  box-shadow: 2px 2px 5px #dcdcdc;
+  background-color: white;
+  border: 0.5px solid #dcdcdc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#midtextbox {
+  margin-bottom: 40px;
+}
+
+#midtextbox > .ui-block-b > h5 {
+  margin : 15px;
+}
+
+#midtextbox > .ui-block-b {
+    padding-left: 10px;
+}
+
+#midtextbox .ui-body-b {
+  height : 185px;
+}
+
+#thirdtitle {
+  max-width: 90%;
+  box-shadow: 2px 2px 5px #dcdcdc;
+  border: 0.5px solid #dcdcdc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
+#bottomtextbox > .ui-block-a {
+    padding-right: 10px;
+}
+
+#bottomtextbox > .ui-block-a > h5 {
+  margin : 15px;
+}
+
+#bottomtextbox .ui-body-b {
+  height : 215px;
+}
+
+
+
+
+
+
+.ui-block-b .ui-body-b {
+  max-width:75%;
+  margin-left: 5px;
+  box-shadow: 2px 2px 5px #dcdcdc;
+  border-radius: 10px;
+}
+
+.ui-block-a > .ui-body-b {
+  display: block;
+  margin-right: 4%;
+  margin-left: 4%;
+  box-shadow: 5px 5px 5px #dcdcdc;
+  border-radius: 10px;
+}
+
+.ui-block-b > h5 {
+  max-width:90%;
+  display: block;
+  text-align: center;
+  height : auto;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #dcdcdc;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin: auto;
+}
+
+.ui-block-a > h5 {
+  max-width:90%;
+  display: block;
+  text-align: center;
+  height : 23px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #dcdcdc;
+  padding-top: 8px;
+  margin: auto;
+}

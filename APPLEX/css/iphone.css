@@ -1,0 +1,16 @@
+img { max-width:80%;
+      display: block;
+      margin: 0px auto;
+      margin-bottom: 20px;
+      height:auto;
+      border-radius : 10px;
+      border : 1px solid #dcdcdc;
+    }
+
+  .iphonepage .ui-bar-b {
+    border-radius: 5px 5px 0px 0px / 5px 5px 0px 0px;
+  }
+
+  .iphonepage .ui-body-a {
+    border-radius: 0px 0px 5px 5px / 0px 0px 5px 5px;
+  }

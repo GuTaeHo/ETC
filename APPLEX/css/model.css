@@ -1,0 +1,16 @@
+h4 {
+    font-weight : bold;
+}
+
+img {
+    width: 100%;
+}
+
+#parents .ui-bar-b {
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+#parents .ui-body-a {
+  border-radius: 15px;
+}

@@ -1,0 +1,42 @@
+img { max-width:95%;
+      height:auto;
+      border-radius : 10px;
+      border : 1px solid #F2F2F2;
+      display: block;
+      margin: 0px auto;
+    }
+
+#linereflesh {
+  margin-bottom: 70px;
+}
+
+#ipad {
+      margin-bottom: 20px;
+}
+
+#boxrow {
+  margin-bottom: 20px;
+}
+
+#boxtype1 {
+      max-width: 90%;
+      padding-left: 10px;
+}
+
+#boxtype2 {
+      max-width: 90%;
+      padding-right: : 10px;
+}
+
+#linebreak {
+  margin-bottom: 20px;
+}
+
+
+.ipadpage .ui-bar-b {
+  border-radius: 5px 5px 0px 0px / 5px 5px 0px 0px;
+}
+
+.ipadpage .ui-body-a {
+  border-radius: 0px 0px 5px 5px / 0px 0px 5px 5px;
+}
