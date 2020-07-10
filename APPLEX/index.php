@@ -27,6 +27,10 @@ if (isset($_GET['target'])) {
 	?>
 </div>
 
+<div data-role = "footer" id = "footer">
+  <h1>A P P L E X</h1>
+</div>
+
 <!-- js 파일 include -->
 <script src="js/main.js"></script>
 <script src="js/<? print($target); ?>.js"></script>

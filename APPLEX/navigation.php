@@ -19,9 +19,14 @@
                   <i class="fa fa-exclamation" aria-hidden="true"></i>&nbsp;앱 추천
               </a>
               <a data-role="button" class="pannel-button"
+              rel="external" href="index.php?target=research">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;액세서리
+              </a>
+              <a data-role="button" class="pannel-button"
               rel="external" href="index.php?target=route">
                   <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;찾아오시는 길
               </a>
+
             </ul>
     </form>
 </div>

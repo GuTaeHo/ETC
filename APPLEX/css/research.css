@@ -1,0 +1,40 @@
+#firstrow {
+  margin-bottom: 20px;
+}
+
+#firstrow img {
+  max-width: 100%;
+  margin-right: 5%;
+  border-radius: 10px;
+}
+
+#firstrow p {
+  margin-bottom: 10px;
+  color : white;
+  text-shadow: none;
+  font-size : 15px;
+}
+
+#firstrow .ui-grid-a {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#firstrow .ui-block-a {
+  max-width: 100%;
+}
+
+#firstrow .ui-bar-a {
+  border-radius: 10px;
+  margin-left: 5%;
+  background-color: #2E2E2E;
+}
+
+.topbox {
+  text-align: center;
+  box-shadow: 4px 4px 5px #dcdcdc;
+  border-radius: 10px;
+  border: 1px solid #dcdcdc;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
