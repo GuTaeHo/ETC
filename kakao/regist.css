@@ -1,0 +1,219 @@
+/*  Date : 2020-09-26
+    Author : Taeho Gu
+*/
+
+h1 {
+    text-align : center;
+}
+
+input {
+    width : 100%;    /* input 상자의 크기를 부모레이아웃에 맞춤*/
+    height : 50px;
+    outline : none;   /* 외곽선 제거*/
+    border : none;   /* 테두리 선 제거 */
+    border-bottom: 2px solid #E6E6E6;
+
+    caret-color : #F4FA58;       /* 커서의 색상을 변경 */
+
+    font-size: 20px;
+}
+
+.button-row > input[type="button"] {      /* input태그의 type속성의 값이 button인 엘리먼트만 선택 */
+    border : 1px solid #E6E6E6;
+    border-radius: 20px;
+    background : white;
+
+    font-size: 15px;
+    font-weight: 500;
+
+    margin-top: 20px;
+
+    float: right;   /* 버튼 우측 정렬 */
+
+    width: 150px;
+    height : 40px;
+}
+
+input::placeholder {    /* placeholder 속성의 스타일 변경*/
+    color: #D8D8D8;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+input[type="text"] {
+    width : 90%;    /* input 상자의 크기를 부모레이아웃에 맞춤*/
+    height : 50px;
+    outline : none;   /* input 태그의 외곽선을 제거*/
+    border : none;   /* 테두리 제거 */
+
+    caret-color : #F4FA58;       /* 커서의 색상을 변경 */
+
+    font-size: 20px;
+}
+
+#user_nickname_input {
+    border-bottom: 2px solid #E6E6E6;
+}
+
+#counter {
+    font-size: 10px;
+    color: #C0C0C0;
+}
+
+input[id="lunar"] + label span {     /* label */
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;     /* 위치를 (텍스트의) 중간으로 */
+    background: url(checkbox.svg) left top no-repeat;   /*no-repeat는 배경 반복 없음*/
+    opacity: 0.5;            /* 이미지를 (살짝)투명하게 */
+    background-size: cover;
+}
+
+input[id="lunar"]:checked + label {     /* 체크 박스가 선택되면 배경 변경*/
+    background:url(checkbox.svg)  -25px -13px no-repeat;     /* 이미지 위치를 왼쪽에서 -32px만큼 위쪽에서 -4px만큼 이동시켜 출력*/
+    background-size: 49px 49px;
+}
+
+input[id="lunar"] + label:hover {
+    cursor : pointer;   /* label에 커서를 올리면 pointer 형태로 변환 */
+}
+
+input[id="lunar"] {     /* input태그의 id가 lunar인 체크박스를 숨김 */
+    display: none;
+    margin-left: 70px;
+}
+
+.select-box-row {
+    border-bottom: 2px solid #E6E6E6;
+    padding: 10px 0px 10px 0px;
+}
+
+.select-box {
+    width: 100px;
+    outline : none;   /* input 태그가 선택되었을 때 외곽선을 제거*/
+    border : none;   /* 외곽선 제거 */
+
+    font-size: 15px;
+    font-weight: 500;
+    color: #585858;
+}
+
+.lunar-button {
+    margin-left: 60px;
+}
+
+input[type="radio"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip:rect(0,0,0,0);
+    border: 0;
+}
+
+input[type="radio"] + label {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    margin-right: 40px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+input[type="radio"] + label:before {
+    content: '';
+    position: absolute;
+    left: 0; top: -4px;
+    width: 21px;
+    height: 21px;
+    text-align: center;
+    border: 1px solid #cacece;
+    border-radius: 100%;
+}
+
+input[type="radio"]:checked + label:after {
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 5px;
+    width: 13px;
+    height: 13px;
+    background: #F3CF04;
+    border-radius: 100%;
+}
+
+
+.radio-row {
+    margin-top : 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #585858;
+}
+
+option {    /* 옵션 스타일 */
+    font-size: 15px;
+    font-weight: lighter;
+    color : gray;
+    border: none;
+}
+
+.next-button {
+    margin-top: 50px;
+}
+
+.next-button input[type="button"] { /* 다음(input) 버튼*/
+    border : none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #F1F1F1;
+}
+
+.next-button input[type="button"]:hover {   /* 다음 버튼에 마우스가 hover 되면*/
+    background: #E9E9E9;
+}
+
+#kakao_title {
+    padding : 20px 0px 20px 0px;
+}
+
+#edgebox {
+    border : 0.5px solid #E6E6E6;
+    width : 450px;
+    height : auto;
+    margin : auto;
+    padding: 50px 70px 50px 70px;
+}
+
+.title {
+    font-size : 22px;
+    font-weight: 500;
+}
+
+.email_title {
+    font-size : xx-small;
+    margin-top : 60px;
+}
+
+.user_input {
+    width: 100%;
+}
+
+.pass_title {
+    font-size : xx-small;
+    margin-top : 100px;
+}
+
+.nick_title {
+    font-size : xx-small;
+    margin-top : 50px;
+}
+
+.gender_title {
+    font-size : xx-small;
+    margin-top : 50px;
+}
